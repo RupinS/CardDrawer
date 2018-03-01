@@ -20,7 +20,7 @@ a dependency:
 #### Gradle
 ```groovy
 dependencies {
-   compile 'com.rupins.drawercardbehaviour:drawer-behavior:0.0.6'
+   compile 'com.rupins.drawercardbehaviour:drawer-card-behaviour:0.0.6'
 }
 ```
 
