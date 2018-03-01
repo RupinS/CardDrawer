@@ -2,6 +2,7 @@
 
 Card Drawer is a library that provide an extra card behavior on drawer, such as, move view or scaling view's height while drawer on slide.
 
+![Alt Text](https://raw.githubusercontent.com/RupinSahu/CardDrawer/master/preview.gif)
 Android 9.0+ support
 
 ## Including In Your Project
