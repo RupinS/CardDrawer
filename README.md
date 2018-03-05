@@ -10,18 +10,28 @@ If you are a Maven user you can easily include the library by specifying it as
 a dependency:
 
 #### Maven
+1. Add the JitPack repository to your build file
+ ``` xml
+<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+```
+2.Add the dependency
+
 ``` xml
 <dependency>
-  <groupId>com.rupins.drawercardbehaviour</groupId>
-  <artifactId>drawer-card-behaviour</artifactId>
-  <version>0.0.4</version>
-  <type>pom</type>
+  <groupId>com.github.RupinSahu</groupId>
+  <artifactId>CardDrawer</artifactId>
+  <version>-SNAPSHOT</version>
 </dependency>
 ```
 #### Gradle
 ```groovy
 dependencies {
-   compile 'com.rupins.drawercardbehaviour:drawer-card-behaviour:0.0.6'
+   implementation 'com.github.RupinSahu:CardDrawer:-SNAPSHOT'
 }
 ```
 
