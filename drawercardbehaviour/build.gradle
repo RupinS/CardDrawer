@@ -1,4 +1,6 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.RupinSahu'
 ext{
     PUBLISH_GROUP_ID= 'com.rupins.drawercardbehavior'
     PUBLISH_ARTIFACT_ID= 'drawer-card-behavior'
